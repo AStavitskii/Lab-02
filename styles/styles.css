@@ -1,0 +1,50 @@
+
+
+/* ELEMENTS */
+    .button {
+        /* background: #154995; */
+        background: #487CCA;
+        box-shadow: 0px 5px 5px rgba(2, 27, 63, 02);
+        /* box-shadow: 0px 5px 15px rgba(107, 145, 202, 02); */
+        border-radius: 2px;
+        border: 0;
+        outline: 0;
+        padding: 11px 21px;
+        color: white;
+        font-style: italic;
+        font-size: 1.2em;
+        text-transform: uppercase;
+
+        }
+
+/* BODY */
+
+    body{
+        margin: 0;
+        font-family: Helvetica, sans-serif;
+        }
+/* HEADER */
+
+    .header{
+        background-color: #072B61;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        color: white;
+        }
+
+    .header-navigation{
+        list-style: none;
+        display: flex;
+
+        }
+    .header-navigation-item{
+        margin-right: 47px;
+        }
+    
+    .header-navigation-item a{
+        text-decoration: none;
+        color: white;
+        }
