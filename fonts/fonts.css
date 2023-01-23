@@ -1,0 +1,8 @@
+@font-face {
+    src: url('NunitoSans-Regular.ttf');
+    font-family: "NunitoSsans Regular";
+    src: url('NunitoSans-Italic.ttf');
+    font-family: "NunitoSsans Italic";
+    src: url('NunitoSans-Bold.ttf');
+    font-family: "NunitoSsans Bold";
+}
