@@ -27,6 +27,7 @@ body * {
         text-transform: uppercase;
         height: 83px;
         align-items: center;
+        font-size: 0.8em;
     }
 
     .logo{
@@ -47,4 +48,8 @@ body * {
     .header-navigation-item a{
         text-decoration: none;
         color: white;
+    }
+
+    .header-contact{
+        color: #487CCA;
     }

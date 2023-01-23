@@ -1,12 +1,16 @@
 /* ELEMENTS */
+.brend-color{
+    color: #94B4E4;
+    
+}
+
 .conteiner{
     max-width: 1250px;
     margin: 0 auto;
 }
 .button {
-    /* background: #154995; */
+    background: #94B4E4;
     margin-right: 10px;
-    background: #487CCA;
     box-shadow: 0px 5px 5px rgba(2, 27, 63, 02);
     /* box-shadow: 0px 5px 15px rgba(107, 145, 202, 02); */
     border-radius: 2px;
@@ -15,7 +19,7 @@
     padding: 11px 21px;
     color: white;
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1em;
     text-transform: uppercase;
 
     }
