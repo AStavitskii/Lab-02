@@ -53,3 +53,6 @@ body * {
     .header-contact{
         color: #487CCA;
     }
+    .header-button{
+        margin-right: 10px;
+    }
