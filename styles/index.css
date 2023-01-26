@@ -1,16 +1,11 @@
+
 .basic{
     background-image: url('../images/back.jpg');
     background-size: cover;
     height: 707px;
-    padding: 194px;
+    padding: 184px;
     position: relative;
     }
-
-.basic-conteiner{
-    position: relative;
-    z-index: 1;
-}
-
 .basic-overlay{
     content: '';
     position: absolute;
@@ -18,6 +13,25 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .7);
     }
+    
+
+
+.basic-content{
+    position: relative;
+    margin-top: 10px;
+    padding-left: 20px;
+    z-index: 1;
+    max-width: 676px;
+    }
+.basic-button{
+    position: relative;
+    font-size: 0.8em;
+
+    
+}
+
+
+
 
