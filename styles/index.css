@@ -1,6 +1,6 @@
 
 .basic{
-    background-image: url('../images/back.jpg');
+    background-image: url('../images/hammer.jpg');
     background-size: cover;
     height: 707px;
     padding: 184px;
@@ -13,12 +13,12 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .8);
     }
     
 
 
-.basic-content{
+.basic-wrapper{
     position: relative;
     margin-top: 10px;
     padding-left: 20px;
@@ -27,6 +27,7 @@
     }
 .basic-button{
     position: relative;
+    margin-top: 10px;
     font-size: 0.8em;
 
     
