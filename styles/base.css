@@ -8,7 +8,7 @@
     }
 
     .conteiner{
-        max-width: 1250px;
+        max-width: 1440px;
         margin: 0 auto;
     }
     .button {
@@ -39,7 +39,6 @@
         font-size: 40px;
         line-height: 53px;
         text-transform: uppercase;
-        color: #FFFFFF;
         }
 
     .subtitle{
@@ -50,12 +49,28 @@
         line-height: 30px;
         color: white;
     }
+    .center{
+        display: flex;
+        justify-content:center;
+        position: relative;
+        z-index: 1;
+        }
+    .circle {
+        width: 220px;
+        height: 220px;
+        background-image: url('../images/hammer-small.jpg');
+        border-width: 10px;
+        border-style: solid;
+        border-color: #072B61;
+        border-radius: 50%;
+        }
 /* BODY */
 
     body{
         margin: 0;
         
         font-family: "NunitoSsans Regular", sans-serif;
+        color: white;
         
         }
 
@@ -104,4 +119,11 @@
 
     .header-button{
         margin-right: 10px;
+    }
+/* WRAPPER */
+    .wrapper{
+        position: relative;
+        margin-top: 10px;
+        padding-left: 20px;
+        z-index: 1;
     }

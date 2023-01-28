@@ -1,38 +1,48 @@
+/* BASIC */
+    .basic{
+        background-image: url('../images/digitalback.jpg');
+        background-size: cover;
+        height: 707px;
+        padding: 184px;
+        position: relative;
+        }
+    .basic-overlay{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .6);
+    }
+        
 
-.basic{
-    background-image: url('../images/hammer.jpg');
-    background-size: cover;
+
+    .basic-wrapper{
+        position: relative;
+        margin-top: 10px;
+        padding-left: 20px;
+        z-index: 1;
+        max-width: 676px;
+    }
+    .basic-button{
+        position: relative;
+        margin-top: 10px;
+        font-size: 0.8em;
+    }
+
+    .basic-circle{
+        
+        margin-top: 130px;
+        }
+   
+/* HOWITWORKS */
+.howitworks{
+    
     height: 707px;
-    padding: 184px;
     position: relative;
+    margin-top: -10px;
     }
-.basic-overlay{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .8);
-    }
-    
-
-
-.basic-wrapper{
-    position: relative;
-    margin-top: 10px;
-    padding-left: 20px;
-    z-index: 1;
-    max-width: 676px;
-    }
-.basic-button{
-    position: relative;
-    margin-top: 10px;
-    font-size: 0.8em;
-
-    
-}
-
 
 
 
