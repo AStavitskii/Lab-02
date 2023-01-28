@@ -34,7 +34,7 @@
 
     .basic-circle{
         
-        margin-top: 20px;
+        margin-top: 22px;
         }
 
 
@@ -51,6 +51,8 @@
 
 .howitworks-content{
     max-width: 700px;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 .howitworks-link{
     color: #94B4E4;
@@ -58,5 +60,10 @@
 .howitworks-link:hover{
     color: white;
 }
-
+.right-content{
+    background-image: url('../images/femida.jpg');
+    width: 700px;
+    height: 700px;
+    background-size: cover;
+}
 

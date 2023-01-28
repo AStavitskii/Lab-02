@@ -40,6 +40,27 @@
         line-height: 53px;
         text-transform: uppercase;
         }
+    .medium-title{
+        margin: 0;
+        font-family: Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 53px;
+        text-transform: uppercase;
+        }    
+
+    .small-title{
+        margin: 0;
+        font-family: Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 53px;
+        text-transform: uppercase;
+        }
+
+
 
     .subtitle{
         font-family: Helvetica, Arial, sans-serif;
@@ -59,11 +80,19 @@
         width: 200px;
         height: 200px;
         background-image: url('../images/hammer-small.jpg');
-        border-width: 10px;
+        border-width: 8px;
         border-style: solid;
         border-color: #072B61;
         border-radius: 50%;
         }
+    .left-block{
+        max-width: 720px;
+    }
+    
+    .right-block{
+        margin-left: 40px;
+    }
+
 /* BODY */
 
     body{
@@ -122,8 +151,10 @@
     }
 /* WRAPPER */
     .wrapper{
+        display: flex;
         position: relative;
         margin-top: 10px;
         padding-left: 20px;
         z-index: 1;
     }
+    
