@@ -34,7 +34,7 @@
 
     .basic-circle{
         
-        margin-top: 22px;
+        margin-top: 47px;
         }
 
 
@@ -43,14 +43,25 @@
 .howitworks{
     position: relative;
     margin-top: -10px;
-    padding-bottom: 20px;
+    padding-bottom: 200px;
     }
+
+.left-block{
+    
+    max-width: 720px;
+}
+
+.right-block{
+    padding-left: 40px;
+}
+
 .wrapper-title{
     padding-top: 100px;
 }
 
 .howitworks-content{
     max-width: 700px;
+    min-width: 450px;
     list-style-type: disc;
     padding-left: 20px;
 }
@@ -60,10 +71,95 @@
 .howitworks-link:hover{
     color: white;
 }
+
+.right-block-content{
+    display: flex;
+    margin-top: 29px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    height: 80px;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.right-block-logo{
+    padding-left: 120px;
+}
+
+.right-block-navigation{
+    padding-left: 30px;
+    padding-right: 110px;
+    list-style: none;
+    display: flex;
+
+}
+
+.right-block-navigation-item{
+    margin-left: 30px;
+}
+
+.right-block-navigation-item a{
+    text-decoration: none;
+    color: white;
+}
+.right-block-navigation-item a:hover{
+    text-decoration: none;
+    color: #94B4E4;
+}
+/* .sub-content {
+    position: absolute;
+    z-index: 1;
+    width: 788px;
+    height: 200px;
+    display: none;
+  }
+  
+  a:hover+.sub-content {
+    display: block;
+  } */
+
+  .sub-content {
+        position: absolute;
+
+        padding-top: 50px;
+        min-width: 500px;
+        max-width: 640px;
+        min-height: 500px;
+        opacity:0;
+        -webkit-transition: opacity 0.5s ease-out 0.1s;
+    -moz-transition: opacity 0.5s ease-out 0.1s;
+    -o-transition: opacity 0.5s ease-out 0.1s;
+    transition: opacity 0.5s ease-out 0.1s;
+    z-index: 2;
+    visibility: hidden;
+  }
+  
+  .what{
+    margin-left: -290px;
+  }
+
+  .why{
+    margin-left: -370px;
+  }
+
+  .how{
+    margin-left: -495px;
+  }
+
+  a:hover+.sub-content, .sub-content:hover {
+    opacity:1;
+    visibility: visible;
+  }
+  .sub-content-text{
+    padding-top: 20px;
+    font-style: normal;
+    text-transform: none;
+  }
+
 .right-content{
     background-image: url('../images/femida.jpg');
-    width: 700px;
-    height: 700px;
     background-size: cover;
+    height: 700px;
+    position: relative;
 }
 
