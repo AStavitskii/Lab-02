@@ -64,6 +64,7 @@
     min-width: 450px;
     list-style-type: disc;
     padding-left: 20px;
+    text-align: justify;
 }
 .howitworks-link{
     color: #94B4E4;
