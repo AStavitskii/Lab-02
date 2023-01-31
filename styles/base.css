@@ -3,6 +3,10 @@
         color: #94B4E4;
     }
 
+    .brend-color-dark{
+        color: #072B61;
+    }
+
     .brend-back{
         background-color: #072B61;
     }
@@ -25,9 +29,7 @@
     }
 
     .button:hover {
-        padding: 9px 19px;
-        border: 2px solid;
-        border-color: #072B61;
+        background: #072B61;
     }
 
     .transparent-button{
@@ -49,7 +51,7 @@
         }
     .medium-title{
         margin: 0;
-        font-family: Helvetica, sans-serif;
+        font-family: Helvetica, arial, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 30px;
@@ -59,7 +61,7 @@
 
     .small-title{
         margin: 0;
-        font-family: Helvetica, sans-serif;
+        font-family: Helvetica, arial, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
@@ -92,7 +94,17 @@
         border-color: #072B61;
         border-radius: 50%;
         }
-   
+    
+    input {
+        width: 100%;
+        padding-top: 5px;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-color: #072B61;
+        margin: 0;
+    }
+
 
 /* BODY */
 
@@ -154,8 +166,6 @@
     .wrapper{
         display: flex;
         position: relative;
-        margin-top: 10px;
-        padding-left: 20px;
         z-index: 1;
     }
     

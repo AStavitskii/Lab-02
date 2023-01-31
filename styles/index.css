@@ -34,7 +34,7 @@
 
     .basic-circle{
         
-        margin-top: 47px;
+        margin-top: 37px;
         }
 
 
@@ -43,7 +43,7 @@
 .howitworks{
     position: relative;
     margin-top: -10px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     }
 
 .left-block{
@@ -163,4 +163,193 @@
     height: 700px;
     position: relative;
 }
+
+/* CONTROL */
+
+.control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lookup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -217px;
+}
+
+.lookup-circle{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background-color: #94B4E4;
+    border-width: 0;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.lookup-rectangle{
+    position: absolute;
+    padding-left: 5px;
+}
+.line{
+    width: 50px;
+    height: 2px;
+    background-color: #072B61;
+    border-width: 0;
+    border-style: solid;
+
+}
+
+.control-content{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #072B61;
+}
+
+.control-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+    max-width: 800px;
+}
+.control-text p{
+    padding-top: 10px;
+}
+
+.form{
+    display: flex;
+    margin-top: 30px;
+    width: 600px;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    font-size: 0.8em;
+}
+.form-field{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.checkbox{
+    display: flex;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #072B61;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+
+  .custom-checkbox:checked+label::before {
+    border-color: #072B61;
+    background-color: #072B61;
+    background-image: url("../images/vector.svg");
+  }
+
+
+.custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #94B4E4;
+  }
+
+.hammer{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+  }
+
+.hammer-small{
+    width: 150px;
+    height: 64px;
+    background-image: url('../images/hammer-small-emptybeck.png.jpg');
+}
+
+.three-blocks{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.three-blocks-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.three-blocks-content{
+    margin-top: -130px;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 330px;
+    height: 276px;
+    background-color:white;
+    border-width: 0;
+    border-style: solid;
+}
+
+.three-blocks-content p{
+    
+    margin-bottom: 20px;
+}
+
+.three-blocks-content li{
+    margin-left: 17px;
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+.three-blocks-price{
+    display: flex;
+    align-items: center;
+    margin-left: -102px;
+    width: 228px;
+    height: 54px;
+    background-color:#072B61;
+    border-width: 0;
+    border-style: solid;
+}
+.three-blocks-price p{
+    padding-left: 20px;
+    color: white;
+}
+
+
+  
+  
+  
+
+  .temp{
+    height: 300px;
+  }
 
