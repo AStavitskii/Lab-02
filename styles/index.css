@@ -361,12 +361,97 @@
     color: white;
 }
 
+.howitworks-left-block{
+    width: 675px;
+    height: 640px;
+    background-image: url('../images/robohend.jpg');
+}
+  
+.howitworks-left-block-content{
+    width: 506px;
+    height: 509px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
 
-  
-  
-  
+.howitworks-line{
+    height: 100px;
+    display: flex;
+    align-items:center;
+    margin-bottom: 5px;
+}
 
-  .temp{
-    height: 300px;
+.howitworks-line-circle{
+    display: flex;
+}
+
+.howitworks-line-circle-image{
+    width: 100px;
+    height: 100px;
+}
+
+.howitworks-line-circle-text{
+    position: absolute;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.howitworks-line-text{
+    color: #072B61; 
+}
+
+.howitworks-right-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    width: 506px;
+    height: 509px;
+    margin-left: 130px;
+    margin-top: 60px;
+    background-color: #072B61;
+    border-radius: 1%;
+}
+
+.howitworks-right-block-form{
+    display: flex;
+    height: 370px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.howitworks-right-block-form input {
+    width: 400px;
+    background-color: #072B61;
+    border-left: 0;
+      border-left-color: currentcolor;
+    border-top: 0;
+      border-top-color: currentcolor;
+    border-right: 0;
+      border-right-color: currentcolor;
+    border-color: #94B4E4;
+    color: white;
+    margin: 0;
   }
+
+  .howitworks-right-block-form textarea {
+    width: 400px;
+    background-color: #072B61;
+    border-left: 0;
+      border-left-color: currentcolor;
+    border-top: 0;
+      border-top-color: currentcolor;
+    border-right: 0;
+      border-right-color: currentcolor;
+    border-color: #94B4E4;
+    color: white;
+    margin: 0;
+  }
+
+.temp{
+    height: 300px;
+}
 
