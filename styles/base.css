@@ -3,6 +3,10 @@
         color: #94B4E4;
     }
 
+    .brend-color-medium{
+        color: #3871c5;
+    }
+
     .brend-color-dark{
         color: #072B61;
     }
@@ -27,46 +31,31 @@
         font-size: 1em;
         text-transform: uppercase;
     }
-
-    .button:hover {
-        background: #072B61;
-    }
-
     .transparent-button{
         background: transparent;
         padding: 9px 19px;
         border: 2px solid;
         border-color: #94B4E4;
-
     }
 
-    .title{
-        margin: 0;
-        font-family: Helvetica, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 53px;
-        text-transform: uppercase;
-        }
-    .medium-title{
-        margin: 0;
-        font-family: Helvetica, arial, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 53px;
-        text-transform: uppercase;
-        }    
+    .button:hover {
+        background: #072B61;
+    }
 
-    .small-title{
-        margin: 0;
-        font-family: Helvetica, arial, sans-serif;
+    
+
+    .title, .title-medium, .title-small {
         font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 53px;
+        font-size: 30px;
         text-transform: uppercase;
+    }
+    
+    .title-medium{
+        font-size: 25px;
+    }    
+
+    .title-small{
+        font-size: 20px;
         }
 
 
@@ -79,21 +68,8 @@
         line-height: 30px;
         color: white;
     }
-    .center{
-        display: flex;
-        justify-content:center;
-        position: relative;
-        z-index: 1;
-        }
-    .circle {
-        width: 150px;
-        height: 150px;
-        background-image: url('../images/hammer-small.jpg');
-        border-width: 8px;
-        border-style: solid;
-        border-color: #072B61;
-        border-radius: 50%;
-        }
+
+
     
     input {
         width: 100%;
@@ -110,58 +86,55 @@
 
     body{
         margin: 0;
-        
-        font-family: "NunitoSsans Regular", sans-serif;
+        font-family:Helvetica, arial, sans-serif;
         color: white;
-        
         }
-
-        /* * {
-            margin: 0;
-            
-            font-family: "NunitoSans Regular", sans-serif;
-            
-            } */
 
     body * {
         box-sizing: border-box;
         }
 
-/* HEADER */
-
-
-    .header-content{
+    .space-between{
+        position: relative;
         display: flex;
         justify-content: space-between;
-        text-transform: uppercase;
-        height: 83px;
+    }
+
+/* HEADER */
+
+    header{
+        position: fixed;
+        overflow: hidden;
+        z-index: 50;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .header-content{
+        padding: 0 10px;
         align-items: center;
+        min-height: 60px;
+        font-family: "NunitoSsans Regular", sans-serif;
+        text-transform: uppercase;
         font-size: 0.8em;
     }
 
-    .logo{
-        margin-left: 10px;
+    .header-content a{
+        text-decoration: none;
     }
-
-    .header-navigation{
-        list-style: none;
-        display: flex;
-
+    .header-content a:hover{
+        color: #3871c5;
     }
-    
-    .header-navigation-item{
-        margin-right: 47px;
+    .header-navigation-item {
+        margin: 0 20px;
     }
-    
     .header-navigation-item a{
         text-decoration: none;
         color: white;
     }
 
 
-    .header-button{
-        margin-right: 10px;
-    }
 /* WRAPPER */
     .wrapper{
         display: flex;

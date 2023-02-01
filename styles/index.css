@@ -1,42 +1,46 @@
 /* BASIC */
     .basic{
+        margin-top: 60px;
         background-image: url('../images/digitalback.jpg');
         background-size: cover;
         height: 500px;
-        padding-top: 100px;
-        position: relative;
         }
     .basic-overlay{
         content: '';
         position: absolute;
+        height: 560px;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
         background-color: rgba(0, 0, 0, .6);
     }
-        
-
-
-    .basic-wrapper{
-        position: relative;
-        margin-top: 10px;
-        padding-left: 20px;
-        z-index: 1;
-        max-width: 676px;
-        min-width: 550px;
+    .basic-content{
+        width: 100%;
+        height: 490px;
     }
+  
+
+
+
     .basic-button{
         position: relative;
         margin-top: 10px;
         font-size: 0.8em;
     }
-
-    .basic-circle{
-        
-        margin-top: 37px;
+    .circle {
+        position: relative;
+        margin-top: -70px;
+        width: 150px;
+        height: 150px;
+        z-index: 1;
+        background-image: url('../images/hammer-small.jpg');
+        border-width: 8px;
+        border-style: solid;
+        border-color: #072B61;
+        border-radius: 50%;
         }
-
+    
 
    
 /* WHOWEARE */
@@ -287,14 +291,14 @@
   }
 
   .custom-checkbox:checked+label::before {
-    border-color: #072B61;
-    background-color: #072B61;
+    border-color:  #3871c5;
+    background-color:  #3871c5;
     background-image: url("../images/vector.svg");
   }
 
 
 .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
-    border-color: #072B61;
+    border-color:  #3871c5;
   }
 
 .hammer{
