@@ -82,7 +82,6 @@
     display: none;
 }
 
-
 .whoweare-popup:hover+.whoweare-sub-content, .whoweare-sub-content:hover {
     display: block;
 }
@@ -94,29 +93,13 @@
     color: white;
 }
 
-.right-block-content{
-    display: flex;
-    margin-top: 29px;
-    justify-content: space-between;
-    text-transform: uppercase;
-    height: 80px;
-    align-items: center;
-    font-size: 1.2em;
-}
-
-.right-block-logo{
-    padding-left: 120px;
-}
-
-.right-block-navigation{
+.title-right{
     padding-left: 30px;
-    padding-right: 110px;
-    list-style: none;
-    display: flex;
-
 }
+
 
 .right-block-navigation-item{
+    padding-top: 2px;
     margin-left: 30px;
 }
 
@@ -130,32 +113,31 @@
 }
 
 
-  .sub-content {
-        position: absolute;
-        padding-top: 20px;
-        min-width: 500px;
-        max-width: 650px;
-        min-height: 500px;
-        opacity:0;
-        -webkit-transition: opacity 0.5s ease-out 0.1s;
-        -moz-transition: opacity 0.5s ease-out 0.1s;
-        -o-transition: opacity 0.5s ease-out 0.1s;
-        transition: opacity 0.5s ease-out 0.1s;
-        z-index: 2;
-        visibility: hidden;
+.sub-content {
+    position: absolute;
+    margin-top: -10px;
+    padding-top: 20px;
+    min-height: 500px;
+    opacity:0;
+    -webkit-transition: opacity 0.5s ease-out 0.1s;
+    -moz-transition: opacity 0.5s ease-out 0.1s;
+    -o-transition: opacity 0.5s ease-out 0.1s;
+    transition: opacity 0.5s ease-out 0.1s;
+    z-index: 2;
+    visibility: hidden;
   }
   
   .what{
     
-    margin-left: -290px;
+    margin-left: -294px;
   }
 
   .why{
-    margin-left: -370px;
+    margin-left: -384px;
   }
 
   .how{
-    margin-left: -495px;
+    margin-left: -534px;
   }
 
   a:hover+.sub-content, .sub-content:hover {
@@ -168,8 +150,18 @@
     padding: 10px;
     min-height: 500px;
     font-style: normal;
+    font-size: 18px;
     text-transform: none;
   }
+
+
+.right-li{
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 30px;
+ 
+}
 
 .right-content-background{
     position: relative;
