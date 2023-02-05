@@ -5,75 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css" type="text/css">
-    <link rel="stylesheet" href="styles/base.css" type="text/css">
-    <link rel="stylesheet" href="styles/index.css" type="text/css">
     <link rel="stylesheet" href="styles/fonts.css" type="text/css">
+    <link rel="stylesheet" media="screen and (min-width: 1301px)" href="styles/base.css" type="text/css">
+    <link rel="stylesheet" media="screen and (min-width: 1301px)" href="styles/index.css" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 1300px)" href="styles/baseupto1300.css" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 1300px)" href="styles/indexupto1300.css" type="text/css">
+    
+
     <title>Правовой стандарт</title>
 </head>
 <body>
-    <header class="brend-back space-between">
-        <div class="conteiner">
-            <div id="header-content">
-                <div class="logo brend-color">
-                    <p>Правовой стандарт</p>
-                </div>
-                <nav>
-                    <ul class="header-navigation">
-                        <li class="header-navigation-item"><a href="">Главная</a></li>
-                        <li class="header-navigation-item"><a href="">Юридическим лицам</a></li>
-                        <li class="header-navigation-item"><a href="">Физическим лицам</a></li>
-                        <li class="header-navigation-item"><a href="">Задолженности</a></li>
-                    </ul>
-                </nav>
-                <a class="header-contact brend-color" href="tel:+73332223322">+7(333) 222-33-22</a>
-                
-                <button class="button header-button ">задать вопрос</button>
+    <header class="brend-back">
+        <div class="conteiner header-content space-between">
+            <div class="logo brend-color">
+                <p>Правовой стандарт</p>
             </div>
-
+            <nav>
+                <ul class="space-between">
+                    <li class="header-navigation-item"><a href="">Главная</a></li>
+                    <li class="header-navigation-item"><a href="">Юридическим лицам</a></li>
+                    <li class="header-navigation-item"><a href="">Физическим лицам</a></li>
+                    <li class="header-navigation-item"><a href="">Задолженности</a></li>
+                </ul>
+            </nav>
+            <a class="header-contact brend-color" href="tel:+73332223322">+7(333) 222-33-22</a>
+            <button class="button header-button ">задать вопрос</button>
         </div>
     </header>
     
-    
     <section class="basic">
-        <div class="conteiner">
-            <div class="basic-wrapper">
-            <h1 class="title">
-                Интернет-портал <span class="brend-color">юридических услуг</span>
-            </h1>
-            <h2 class="title-medium">
-                Мы автоматизируем юридические процессы.<br>
-                Получите результат юридической услуги с экономией до 45% рабочего
-                времени и стоимости по сравнению с аналогичными результатами, полученными вручную.
-            </h2>
-            <button class="button basic-button">узнать стоимость</button>
-            <button class="button basic-button transparent-button">подтвердить</button>
-    
+        <div class="conteiner zindex1">
+
+            <div class="basic-content">
+                <h1 class="title">
+                    Интернет-портал <br> <span class="brend-color">юридических услуг</span>
+                </h1>
+                <h2 class="title-small">
+                    Мы автоматизируем юридические процессы.<br>
+                    Получите результат юридической услуги с экономией до 45% рабочего
+                    времени и стоимости по сравнению с аналогичными результатами, полученными вручную.
+                </h2>
+                <div class="basic-buttons">
+                    <button class="button basic-button">узнать стоимость</button>
+                    <button class="button basic-button transparent-button">подтвердить</button>
+                </div>
+                
             </div>
         </div>
-
-        <div class="basic-overlay"></div>
-        <div class="conteiner center circle basic-circle"></div>
-        
-        
+        <div class="conteiner circle"></div>
+        <div class="basic-overlay"></div>    
+     
     </section>
 
     <section class="whoweare brend-back">
         <div class="conteiner">
-           <div class="wrapper">
-                <div class="left-block">
-                    <h1 class="brend-color title wrapper-title">
+            <div class="wrapper">
+                <div class="who-sides">
+                    <h1 class="brend-color title">
                         кто мы такие
                     </h1>
-                    <ul class = "whoweare-content title-medium">
-                        <li> <span class="whoweare-popup">Мы - команда юристов и разработчиков.</span>
-                             <div class="whoweare-sub-content">
+                    <ul class = "whoweare-content">
+                        <li> 
+                            <div class="title-small whoweare-popup">Мы - команда юристов и разработчиков</div>
+                            <div class="whoweare-sub-content">
                             Вся бухгалтерия и отчетность давно в цифре,
                             а юризм делается на коленке, и, зачастую, кривыми руками.
                             Мы решили изменить ситуацию. Резултаты наших услуг - работа разработанной нами интеллектуальной системы автоматизации
                              юридических процессов и создания юридически значимых сущностей. Поэтому результаты работы создаются быстро и дешево.
-                             </div>
+                            </div>
                         </li>
-                        <li><span class="whoweare-popup">Мы работаем легально.</span>
+                        <li><div class="title-small whoweare-popup">Мы работаем легально</div>
                             <div class="whoweare-sub-content">
                                 Соблюдаем дейсвтующее законодательство. Ценим и соблюдаем права заказчиков наших услуг.
                                 Оплачивая и получая результат услуги, вы заключаете  <a class="whoweare-link" href="#">договор оферты в электронной форме</a>.
@@ -81,20 +82,20 @@
                             </div>
                             
                         </li>
-                        <li><span class="whoweare-popup">Мы платим налоги.</span>
+                        <li><div class="title-small whoweare-popup">Мы платим налоги</div>
                             <div class="whoweare-sub-content">
                                 Именно поэтому мы начинаем общение с коммерческими клиентами с ИНН.
                                 По нему мы идентифицируем плательщика и расчитываем налог.
                                 Если вы скрываете свою юридическую личность и не хотите сообщать нам свой ИНН, вам не к нам.
                             </div>
                         </li>
-                        <li><span class="whoweare-popup">С физическими лицами несколько проще.</span>
+                        <li><div class="title-small whoweare-popup">С физическими лицами несколько проще</div>
                             <div class="whoweare-sub-content">
                                 Мы не собираем и не храним персональные данные, ИНН физических лиц нам не нужен.
                             </div>
                             
                         </li>
-                        <li><span class="whoweare-popup">В любом случае нам нужна ваша действующая электронная почта.</span>
+                        <li><div class="title-small whoweare-popup">В любом случае нам нужна ваша действующая электронная почта</div>
                             <div class="whoweare-sub-content">
                                 Это официальный способ обмена юридически значимой информацией и документами.
                                 Мы не делаем и никогда не будем делать рекламных рассылок. Вся почта от нас будет касаться либо конкретной заказанной услуги,
@@ -102,34 +103,32 @@
                             </div>
                             
                         </li>
-                        <li><span class="whoweare-popup">Мы не ведем общение по телефону, в мессенджерах и социальных сетях.</span>
+                        <li><div class="title-small whoweare-popup">Мы не ведем общение по телефону, в мессенджерах и социальных сетях</div>
                             <div class="whoweare-sub-content">
                                 Наше время и другие ресурсы тратяться на оказание конкретной заказанной услуги и развитие Портала.
                             </div>
                             
                         </li>
                     </ul>
-
                 </div>
-                <div class="right-block">
-                    <!-- <nav class="right-block-nav"> -->
-                    <div class="right-block-content">
-                        <div class="title-small brend-color">
+                <div class="who-sides">
+                    <div class="space-between">
+                        <div class="title title-right brend-color">
                             <p>попробуйте</p>
                         </div>
                         <nav>
-                            <ul class="right-block-navigation">
-                                <li class="right-block-navigation-item">
+                            <ul class="space-between title-medium">
+                                <li class="right-block-navigation-item" >
                                     <a href="">что?</a>
                                     <div class="sub-content what right-content">
-                                        <a class="brend-color" href="#">взыскать задолженность в упрощенном порядке</a>
-                                        <div class="sub-content-text title-medium right-content-background">
+                                        <a class="brend-color title-small" href="#">взыскать задолженность в упрощенном порядке</a>
+                                        <div class="sub-content-text right-content-background">
                                             <p>Мы проведем досудебный порядок урегулирования спора за 5000 рублей;</p>
                                             <p>Если понадобится, сходим в арбитраж за 10000 рублей;</p>
                                             <p>Решение суда не позднее 3,5 месяцев с даты начала взыскания;</p>
                                             <p class="right-block-navigation-item">При условии, что:</p>
                                             
-                                            <ul class = "whoweare-content title-medium">
+                                            <ul class = "whoweare-content">
                                                 <li>Вы и должнки являетесь юридическим лицом или индивидуальным предпринимателем </li>
                                                 <li>У вас имеется договор с должником, и документ, подтверждающий наличие задолженности</li>
                                             </ul>
@@ -139,8 +138,8 @@
                                 <li class="right-block-navigation-item">
                                     <a href="">почему?</a>
                                     <div class="sub-content why">
-                                        <a class="brend-color" href="#">убытки - это расходы и неполученные доходы</a>
-                                        <div class="sub-content-text title-medium right-content-background">
+                                        <a class="brend-color title-small" href="#">убытки - это расходы и неполученные доходы</a>
+                                        <div class="sub-content-text right-content-background">
                                             <p>Если у вас есть 10 дебиторок по 50 тысяч рублей, то из вашего оборота выпало полмиллиона.
                                                 Это много. Помимо наличия задолженности, вы несете дополнительные убытки в виде неполученных доходов, 
                                                 которые могли бы получить, вернув деньги в оборот.
@@ -154,11 +153,11 @@
                                 <li class="right-block-navigation-item">
                                     <a href="">как?</a>
                                     <div class="sub-content how">
-                                        <a class="brend-color" href="#">Вы присылаете нам документы из выпадающего списка</a>
-                                        <div class="sub-content-text title-medium right-content-background">
-                                            <ul class = "whoweare-content title-medium">
+                                        <a class="brend-color title-small" href="#">Вы присылаете нам документы из выпадающего списка</a>
+                                        <div class="sub-content-text right-content-background">
+                                            <ul class = "right-li">
                                                 <li>Документы, подтверждающие наличие задолженности</li>
-                                                <ul class = "whoweare-content title-medium">
+                                                <ul class = "right-li">
                                                     <p>Например:</p>
                                                     <li>Договор с должником</li>
                                                     <li>Платежное поручение</li>
@@ -176,273 +175,21 @@
                         </nav>
                     </div>
                     <div class="right-content"></div>
-                </div>
-          </div>
-          <div class="control">
-            <h1 class="title wrapper-title">
-                постоянный контроль
-            </h1>
-            <img class="camera" src="images/camera.svg" alt="camera">
-          </div>
-        </div>
-    </section>
-    <section class="control">
-        <div class="conteiner">
-           <div class="wrapper">
-            <div class="lookup">
-                <img class="lookup-image" src="images/lookup.jpg" alt="lawyer looks up">
-                <button class="lookup-circle"></button>
-                <img class="lookup-rectangle" src="images/rectangle.svg" alt="lawyer looks up">
-            </div>
-
-           </div> 
-        </div>
-    </section>
-    <section>
-        <div class="conteiner">
-            <div class="control-content">
-                    <div class="line"></div>
-                    <div class="control-text">
-                        <p>Любая задача, в том числе - юридические процессы, имеют жизненный цикл,</p>
-                        <p>начинаются с инициативы, заканчиваются результатом.</p>
-                        <p>Жизненный цикл разбивается на стадии.</p>
-                        <p>У каждой стадии есть исполнитель и промежуточный результат.</p>
-                        <p>Наш сервис максимально насколько возможно создает промежуточный</p>
-                        <p>  и окончательный резултат автоматически,</p>
-                        <p>а там, где требуется участие человека - следит за сроками  исполнения.</p>
-                        <p>Таким образом, ваша заказанная услуга всегда под контролем,</p>
-                        <p>всегда завершится результатом вовремя.</p>
-                    </div>
-
-                    <form action="#" class="form">
-                        <div class="form-field">
-                            <span class="form-text">ИНН</span>  
-                            <input type="text" name="ИНН" placeholder="введите ИНН" required />
-                        </div>
-                        <div class="form-field">
-                            <span class="form-text">E-Mail</span>  
-                            <input type="email" name="name" placeholder="Введите E-Mail" required />
-                        </div>
-                        <button class="button" type="submit">отправить</button>
-                        
-                    </form>
-                    <div class="checkbox">
-                        <input type="checkbox" class="custom-checkbox" id="custom-checkbox" name="custom-checkbox" value="yes">
-                        <label for="custom-checkbox">Согласие на обработку персональных данных</label>
-                    </div>
-                    <h1 class=""></h1>
-                    <h1 class="title wrapper-title brend-color-dark">
-                        виды услуг
-                    </h1>
-
-                    <div class="hammer">
-                        <div class="line"></div>
-                        <div class="hammer-small"></div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="three-blocks">
-                        <div class="three-blocks-element">
-                            <img src="images/court.jpg" alt="court">
-                            <div class="three-blocks-content">
-                                <p>ВЗЫСКАНИЕ ЗАДОЛЖЕННОСТИ</p>
-                                <ul>
-                                    <li>text</li>
-                                    <li>text</li>
-                                    <li>text</li>
-                                </ul>
-                           
-                            </div>
-                            <div class="three-blocks-price">
-                                <p>От 5000 рублей</p>
-                            </div>
-                        </div>
-                        <div class="three-blocks-element">
-                            <img src="images/entity.jpg" alt="entity">
-                            <div class="three-blocks-content">
-                                <p>ЮРИДИЧЕСКИМ ЛИЦАМ</p>
-                                <ul>
-                                    <li>text</li>
-                                    <li>text</li>
-                                    <li>text</li>
-                                </ul>
-                           
-                            </div>
-                            <div class="three-blocks-price">
-                                <p>От 3000 рублей</p>
-                            </div>
-                        </div>
-                        <div class="three-blocks-element">
-                            <img src="images/person-one.jpg" alt="person">
-                            <div class="three-blocks-content">
-                                <p>ФИЗИЧЕСКИМ ЛИЦАМ</p>
-                                <ul>
-                                    <li>text</li>
-                                    <li>text</li>
-                                    <li>text</li>
-                                </ul>
-                           
-                            </div>
-                            <div class="three-blocks-price">
-                                <p>От 1000 рублей</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                    
-               
-            </div>
-        </div>
-    </section>
-    <section class="howitworks">
-        <div class="conteiner">
-            <div class="wrapper">
-                <div class="howitworks-left-block">
-                    <div class="howitworks-left-block-content">
-                        <div class="howitworks-line">
-                            <div class="howitworks-line-circle">
-                                <img class="howitworks-line-circle-image" src="images/circlesvg.svg" alt="circle">
-                                <div class="howitworks-line-circle-text"><p>01</p></div>
-                            </div>
-                            <div class="howitworks-line-text">
-                                <p>Укажите электронную почту для связи. Если вы юридическое лицо или ИП, сообщите свой ИНН</p>
-                                
-                            </div>
-                        </div>
-                        <div class="howitworks-line">
-                            <div class="howitworks-line-circle">
-                                <img class="howitworks-line-circle-image" src="images/circlesvg.svg" alt="circle">
-                                <div class="howitworks-line-circle-text"><p>02</p></div>
-                            </div>
-                            <div class="howitworks-line-text">
-                                <p>Отправьте нам первое сообщение</p>
-                                
-                            </div>
-                        </div>
-                        <div class="howitworks-line">
-                            <div class="howitworks-line-circle">
-                                <img class="howitworks-line-circle-image" src="images/circlesvg.svg" alt="circle">
-                                <div class="howitworks-line-circle-text"><p>03</p></div>
-                            </div>
-                            <div class="howitworks-line-text">
-                                <p> Мы изучим ваш вопрос, вышлем вам договор и счет на оплату</p>
-                                
-                            </div>
-                        </div>
-                        <div class="howitworks-line">
-                            <div class="howitworks-line-circle">
-                                <img class="howitworks-line-circle-image" src="images/circlesvg.svg" alt="circle">
-                                <div class="howitworks-line-circle-text"><p>04</p></div>
-                            </div>
-                            <div class="howitworks-line-text">
-                                <p> После поступления оплаты вы получите ответ на свой вопрос в максимально сжатые сроки.
-                                    Если вы заказали автоматическую услугу, ответ придет в течение нескольких минут</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="howitworks-right-block">
-                    <div class="howitworks-right-block-top">
-                        <p>Опишите вашу задачу</p>
-                        <form action="#" class="howitworks-right-block-form">
-                            <div class="form-field">
-                                <span class="form-text">ИНН</span>  
-                                <input type="text" name="ИНН" placeholder="введите ИНН" required />
-                            </div>
-                            <div class="form-field">
-                                <span class="form-text">E-Mail</span>  
-                                <input type="email" name="name" placeholder="Введите E-Mail" required />
-                            </div>
-
-                            <textarea rows="10" cols="45" name="text" placeholder="Введите ваше сообщение"></textarea>
-                            
-                            
-                            <button class="button" type="submit">отправить</button>
-                            
-                        </form>
-                        <div class="checkbox">
-                            <input type="checkbox" class="custom-checkbox" id="howitworks-custom-checkbox" name="howitworks-custom-checkbox" value="yes">
-                            <label for="howitworks-custom-checkbox">Согласие на обработку персональных данных</label>
-                        </div>
-
-                    </div>
-                    <div class="free-checkup">
-                        <div>
-                            <button class="howitworks-right-block-circle"></button>
-                            <img class="free-checkup-circle-image" src="images/dollar.svg" alt="circle">
-
-                        </div>
-                        
-                        <p class="howitworks-line-text">Бесплатно получите результаты <br> экспресс-проверки вашего статуса</p>
-                        <p class="howitworks-line-text"></p>
-                    </div>
-
-                        
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="basic-bottom">
-        <div class="conteiner">
-            <div class="wrapper">
-                <div class="basic-bottom-left">
-                    <h1 class="brend-color title wrapper-title">
-                        We realize your <br> wildest fantasies
-                    </h1>
-                    <ul class="basic-bottom-list">
-                        <li><a class="whoweare-link" href="#">Ссылка обычная</a></li>
-                        <li>Text</li>
-                        <li>Text</li>
-                        <li>Text</li>
-                        <li>Text</li>
-                        <li>Text</li>
-                        <li>Text</li>
-                        <li>Text</li>
-                        <li>Text</li>
-                        <li>Text</li>
-                        <li>Text</li>
-
-                    </ul>
-
-                </div>
-                <div class="basic-bottom-center">
-                    <img src="images/lt.jpg" alt="girl">
-                    <img src="images/lb.jpg" alt="girl">
-                </div>
-                
-                <div class="basic-bottom-right">
-                    <img src="images/rt.jpg" alt="girl">
-                    <img src="images/rb.jpg" alt="girl">
 
                 </div>
             </div>
         </div>
-        <div class="basic-overlay"></div>
-
-        
-        
-    <!-- </section>
+    </section>
+    
     <section>
         <div class="conteiner">
             <div style="position:relative;overflow:hidden;">
                 <a href="https://yandex.ru/maps/org/gum/1331623198/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">ГУМ</a>
                 <a href="https://yandex.ru/maps/213/moscow/category/shopping_mall/184108083/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Торговый центр в Москве</a>
-                <iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.621958%2C55.753547&mode=poi&poi%5Bpoint%5D=37.621181%2C55.754572&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1331623198&z=16.88" width="960" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                <iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.621958%2C55.753547&mode=poi&poi%5Bpoint%5D=37.621181%2C55.754572&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1331623198&z=16.88" width="925" height="466" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
             </div>
         </div>
-    </section> -->
-
-
+    </section>
 </main>
-
-
-        
-    
-
 </body>
 </html>
