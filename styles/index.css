@@ -3,9 +3,7 @@
         margin-top: 60px;
         background-image: url('../images/digitalback.jpg');
         background-size: cover;
-        
         height: 500px;
-        /* position: relative; */
         }
     
     .basic-overlay{
@@ -19,17 +17,15 @@
         background-color: rgba(0, 0, 0, .6);
 
     }
-
     .zindex1{
         position: relative;
         z-index: 1;
     }
-
     .basic-content{
-        z-index: 2;
         padding-top: 100px;
         padding-left: 20px;
-        width: 600px;
+        max-width: 600px;
+        min-width: 270px;
         height: 490px;
     }
     .basic-button{
@@ -50,7 +46,45 @@
         border-radius: 50%;
         }
     
-
+    @media (max-width: 1100px){
+        .basic{
+            max-height: 400px;
+            }
+        .basic-overlay{
+            height: 460px;
+        }
+        .basic-content{
+          padding-top: 30px;
+          padding-left: 10px;
+          padding-right: 10px;
+          max-width: 400px;
+          height: 390px;
+          text-align: justify;
+        }
+        
+        .basic-buttons{
+          display: flex;
+          max-width: 300px;
+          padding-right: 10px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .basic-button{
+            position: relative;
+            width: 200px;
+            padding-right: 10px;
+        }
+        .circle {
+            margin-top: -25px;
+            width: 72px;
+            height: 72px;
+            background-image: url('../images/hammer-small-mobile.jpg');
+            border-width: 4px;
+      }
+        
+    }
    
 /* WHOWEARE */
 
@@ -62,19 +96,40 @@
     width: 100%;
     min-height: 700px;
 }
+@media (max-width: 1100px){
+    .who-sides{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        max-width: 600px;
+        width: 100%;
+        min-height: 400px;
+    }
+}
 
 .whoweare-content{
     list-style-type: disc;
     padding-left: 20px;
     text-align: justify;
 }
-.whoweare-content li{
+.whoweare-conten-li{
     min-height: 60px;
     padding-bottom: 20px;
     font-size: 18px;
     line-height: 30px;
- 
 }
+@media (max-width: 1300px){
+    .whoweare-content{
+      max-width: 600px;
+      padding-left: 10px;
+      text-align: justify;
+      }
+    .whoweare-content li{
+    font-size: 14px;
+    line-height: 22px;
+    }
+}
+
 
 .whoweare-sub-content {
     position: relative;
@@ -93,10 +148,15 @@
     color: white;
 }
 
+.right-head{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
 .title-right{
     padding-left: 30px;
 }
-
 
 .right-block-navigation-item{
     padding-top: 2px;
@@ -104,14 +164,12 @@
 }
 
 .right-block-navigation-item a{
-    text-decoration: none;
     color: white;
 }
+
 .right-block-navigation-item a:hover{
-    text-decoration: none;
     color: #94B4E4;
 }
-
 
 .sub-content {
     position: absolute;
@@ -153,23 +211,49 @@
     font-size: 18px;
     text-transform: none;
   }
-
-
-.right-li{
+  .right-li{
     list-style-type: disc;
     padding-left: 20px;
     font-size: 18px;
     line-height: 30px;
- 
-}
-
-.right-content-background{
+    }
+    .right-content-background{
     position: relative;
     background-image: url('../images/femida.jpg');
     min-height: 200px;
     background-size: cover;
+    }
 
-}
+    @media (max-width: 1300px)
+    {
+        .right-head{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .title-right{padding-left: 0;}
+        .right-block-navigation-item{margin-left: 0px;}
+        .nav-list{display: flex;}
+        .nav-list li{margin-right: 15px;}
+        .what{margin-left: 0px;}
+        .why{margin-left: -58px;}
+        .how{margin-left: -154px;}
+        .sub-content-text{
+            padding: 0px;
+            /* min-height: 500px; */
+            font-size: 14px;
+            }
+        .right-li{
+            padding-left: 10px;
+            line-height: 20px;
+            }
+            .right-content-background{
+            position: relative;
+            background-image: none;
+
+
+    }
 
 .camera{
     width: 50px;
