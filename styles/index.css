@@ -157,6 +157,7 @@
 .title-right{
     padding-left: 30px;
 }
+.nav-list{display: flex;}
 
 .right-block-navigation-item{
     padding-top: 2px;
@@ -171,20 +172,6 @@
     color: #94B4E4;
 }
 
-.sub-content {
-    position: absolute;
-    margin-top: -10px;
-    padding-top: 20px;
-    min-height: 500px;
-    opacity:0;
-    -webkit-transition: opacity 0.5s ease-out 0.1s;
-    -moz-transition: opacity 0.5s ease-out 0.1s;
-    -o-transition: opacity 0.5s ease-out 0.1s;
-    transition: opacity 0.5s ease-out 0.1s;
-    z-index: 2;
-    visibility: hidden;
-  }
-  
   .what{
     
     margin-left: -294px;
@@ -198,7 +185,21 @@
     margin-left: -534px;
   }
 
-  a:hover+.sub-content, .sub-content:hover {
+.sub-content {
+    position: absolute;
+    margin-top: -10px;
+    padding-top: 20px;
+    min-height: 500px;
+    opacity:0;
+    -webkit-transition: opacity 0.5s ease-out 0.1s;
+    -moz-transition: opacity 0.5s ease-out 0.1s;
+    -o-transition: opacity 0.5s ease-out 0.1s;
+    transition: opacity 0.5s ease-out 0.1s;
+    z-index: 2;
+    visibility: hidden;
+  }
+
+a:hover+.sub-content, .sub-content:hover {
     opacity:1;
     visibility: visible;
   }
@@ -217,7 +218,7 @@
     font-size: 18px;
     line-height: 30px;
     }
-    .right-content-background{
+  .right-content-background{
     position: relative;
     background-image: url('../images/femida.jpg');
     min-height: 200px;
@@ -234,11 +235,25 @@
         }
         .title-right{padding-left: 0;}
         .right-block-navigation-item{margin-left: 0px;}
-        .nav-list{display: flex;}
+        .nav-list{
+            display: flex;
+            flex-direction: column;
+        }
         .nav-list li{margin-right: 15px;}
         .what{margin-left: 0px;}
         .why{margin-left: -58px;}
         .how{margin-left: -154px;}
+
+        .sub-content {
+            position: relative;
+            z-index: 2;
+            display: none;
+          }
+        
+        a:hover+.sub-content, .sub-content:hover {
+            display: block;
+          }
+
         .sub-content-text{
             padding: 0px;
             /* min-height: 500px; */
@@ -599,3 +614,4 @@
     height: 950px;
     width: 354px;
 }
+
