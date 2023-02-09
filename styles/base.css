@@ -44,6 +44,16 @@
     .button:hover {
         background: #072B61;
     }
+    .line, .line-white{
+        width: 50px;
+        height: 2px;
+        background-color: #072B61;
+        border-width: 0;
+        border-style: solid;
+    }
+    .line-white{
+        background-color: white;
+    }
 
     @media (max-width: 1300px) {
         .button {

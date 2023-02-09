@@ -88,7 +88,9 @@
    
 /* WHOWEARE */
 
-
+.whoweare{
+    padding-bottom: 120px;
+}
 .who-sides{
     padding-left: 50px;
     padding-right: 50px;
@@ -237,23 +239,18 @@ a:hover+.sub-content, .sub-content:hover {
         .right-block-navigation-item{margin-left: 0px;}
         .nav-list{
             display: flex;
-            flex-direction: column;
+            justify-content:flex-start;
         }
-        .nav-list li{margin-right: 15px;}
         .what{margin-left: 0px;}
-        .why{margin-left: -58px;}
-        .how{margin-left: -154px;}
+        .why{margin-left: 0px;}
+        .how{margin-left: 0px;}
 
         .sub-content {
             position: relative;
             z-index: 2;
-            display: none;
-          }
-        
-        a:hover+.sub-content, .sub-content:hover {
             display: block;
+            min-height: 300px;
           }
-
         .sub-content-text{
             padding: 0px;
             /* min-height: 500px; */
@@ -266,30 +263,31 @@ a:hover+.sub-content, .sub-content:hover {
             .right-content-background{
             position: relative;
             background-image: none;
-
-
+            }
     }
-
-.camera{
-    width: 50px;
-}
-
-
 
 /* CONTROL */
 
-.control{
+
+.camera {
+    width: 170px;
+    align-items: center;
+}
+.camera-image {
+    width: 42.px;
+    height: 40px;
+    
+}
+
+.control, .lookup {
+    position: relative;
     display: flex;
-    margin-top: 80px;
     flex-direction: column;
     align-items: center;
 }
 
 .lookup{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -297px;
+    margin-top: -197px;
 }
 
 .lookup-circle{
@@ -306,14 +304,7 @@ a:hover+.sub-content, .sub-content:hover {
     position: absolute;
     padding-left: 5px;
 }
-.line{
-    width: 50px;
-    height: 2px;
-    background-color: #072B61;
-    border-width: 0;
-    border-style: solid;
 
-}
 
 .control-content{
     display: flex;
