@@ -54,6 +54,9 @@
     .line-white{
         background-color: white;
     }
+    .ruble{
+        width: 40px;
+    }
 
     @media (max-width: 1300px) {
         .button {
