@@ -179,3 +179,9 @@
             flex-direction: column;
         }
     }
+
+    footer{
+        padding-top: 30px;
+        height: 132px;
+        justify-content:center
+    }

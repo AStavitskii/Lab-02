@@ -508,21 +508,42 @@
     <section class="bottom-form-block">
         <div class="bottom-form-background">
             <form class="bottom-form" action="#" >
-                <div class="form-field">
-                    <span class="form-text">ИНН</span>  
-                    <input type="text" name="ИНН" placeholder="введите ИНН" required />
+                <div class="space-between">
+                    <div class="form-field bottom-form-firstline">
+                        <span class="form-text">ИНН</span>  
+                        <input type="text" name="ИНН" placeholder="введите ИНН" required />
+                    </div>
+                    <div class="form-field bottom-form-firstline">
+                        <span class="form-text">E-Mail</span>  
+                        <input type="email" name="name" placeholder="Введите E-Mail" required />
+                    </div>
+
                 </div>
-                <div class="form-field">
-                    <span class="form-text">E-Mail</span>  
-                    <input type="email" name="name" placeholder="Введите E-Mail" required />
-                </div>
-                <textarea rows="10" cols="45" name="text" placeholder="Введите ваше сообщение"></textarea>
-                <button class="button" type="submit">отправить</button>
+                
+                <textarea  rows="12"  name="text" placeholder="Введите ваше сообщение"></textarea>
+                <button class="button bottom-form-button" type="submit">отправить</button>
+            
+                <div class="checkbox">
+                    <input type="checkbox" class="custom-checkbox" id="howitworks-custom-checkbox" name="howitworks-custom-checkbox" value="yes">
+                    <label for="howitworks-custom-checkbox">Согласие на обработку персональных данных</label>
+                </div>  
+            
             </form>
+            
 
 
         </div>
-        <div class="bottom-form-address "></div>
+        <div class="bottom-form-address">
+            <div class="bottom-form-address-content">
+                <h1 class="title-medium">Москва, Красная площадь, 3</h1>
+                <h1 class="title-medium">Телефон +7(333) 222-33-22</h1>
+                <div class="bottom-form-address-icons">
+                    <img src="images/envelop.svg" alt="">
+                    <img src="images/insta.svg" alt="">
+                </div>
+            </div>
+            
+        </div>
         
     </section>
     
@@ -530,14 +551,36 @@
 
 
     <section>
-        <div class="conteiner">
+        <div class="conteiner map">
             <div style="position:relative;overflow:hidden;">
                 <a href="https://yandex.ru/maps/org/gum/1331623198/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">ГУМ</a>
                 <a href="https://yandex.ru/maps/213/moscow/category/shopping_mall/184108083/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Торговый центр в Москве</a>
-                <iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.621958%2C55.753547&mode=poi&poi%5Bpoint%5D=37.621181%2C55.754572&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1331623198&z=16.88" width="925" height="466" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                <iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.621958%2C55.753547&mode=poi&poi%5Bpoint%5D=37.621181%2C55.754572&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1331623198&z=16.88" width="925" height="460" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </div>
+        <div class="map-bottom-overlay">
+            <div class="map-bottom-overlay-content">
+                
             </div>
         </div>
     </section>
+    <footer class="brend-back">
+        <div class="conteiner header-content space-between">
+            <div class="logo brend-color">
+                <p>Правовой стандарт</p>
+            </div>
+            <nav>
+                <ul class="space-between">
+                    <li class="header-navigation-item"><a href="">Главная</a></li>
+                    <li class="header-navigation-item"><a href="">Юридическим лицам</a></li>
+                    <li class="header-navigation-item"><a href="">Физическим лицам</a></li>
+                    <li class="header-navigation-item"><a href="">Задолженности</a></li>
+                </ul>
+            </nav>
+            <a class="header-contact brend-color" href="tel:+73332223322">+7(333) 222-33-22</a>
+            <button class="button header-button ">задать вопрос</button>
+        </div>
+    </footer>
 </main>
 </body>
 </html>
