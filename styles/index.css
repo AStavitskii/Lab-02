@@ -46,45 +46,7 @@
         border-radius: 50%;
         }
     
-    @media (max-width: 1100px){
-        .basic{
-            max-height: 400px;
-            }
-        .basic-overlay{
-            height: 460px;
-        }
-        .basic-content{
-          padding-top: 30px;
-          padding-left: 10px;
-          padding-right: 10px;
-          max-width: 400px;
-          height: 390px;
-          text-align: justify;
-        }
-        
-        .basic-buttons{
-          display: flex;
-          max-width: 300px;
-          padding-right: 10px;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        
-        .basic-button{
-            position: relative;
-            width: 200px;
-            padding-right: 10px;
-        }
-        .circle {
-            margin-top: -25px;
-            width: 72px;
-            height: 72px;
-            background-image: url('../images/hammer-small-mobile.jpg');
-            border-width: 4px;
-      }
-        
-    }
+
    
 /* WHOWEARE */
 
@@ -99,16 +61,7 @@
     width: 100%;
     min-height: 700px;
 }
-@media (max-width: 1100px){
-    .who-sides{
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 40px;
-        max-width: 600px;
-        width: 100%;
-        min-height: 400px;
-    }
-}
+
 
 .whoweare-content{
     list-style-type: disc;
@@ -121,8 +74,6 @@
     font-size: 18px;
     line-height: 30px;
 }
-
-
 
 .whoweare-sub-content {
     position: relative;
@@ -160,19 +111,6 @@
 .right-block-navigation-item a:hover{
     color: #94B4E4;
 }
-
-  .what{
-    
-    margin-left: -294px;
-  }
-
-  .why{
-    margin-left: -384px;
-  }
-
-  .how{
-    margin-left: -534px;
-  }
 
 .sub-content {
     position: absolute;
@@ -261,7 +199,7 @@ a:hover+.sub-content, .sub-content:hover {
 }
 
 
-.center-content{
+.control-text-content{
     display: flex;
     margin-top: 50px;
     flex-direction: column;
@@ -270,7 +208,7 @@ a:hover+.sub-content, .sub-content:hover {
     color: #072B61;
 }
 
-.center-text{
+.control-text{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -369,7 +307,6 @@ a:hover+.sub-content, .sub-content:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .three-blocks-content{
     margin-top: -130px;
@@ -579,46 +516,7 @@ a:hover+.sub-content, .sub-content:hover {
     height: 864px;
 }
 
-@media (max-width: 1300px){
-    .title-right{padding-left: 0;}
-    .right-block-navigation-item{margin-left: 0px;}
-    .nav-list{
-        display: flex;
-        justify-content:flex-start;
-    }
-    .what{margin-left: 0px;}
-    .why{margin-left: 0px;}
-    .how{margin-left: 0px;}
 
-    .sub-content {
-        position: relative;
-        z-index: 2;
-        display: block;
-        min-height: 300px;
-      }
-    .sub-content-text{
-        padding: 0px;
-        /* min-height: 500px; */
-        font-size: 14px;
-        }
-    .right-li{
-        padding-left: 10px;
-        line-height: 20px;
-        }
-        .right-content-background{
-        position: relative;
-        background-image: none;
-        }
-    .whoweare-content{
-      max-width: 600px;
-      padding-left: 10px;
-      text-align: justify;
-      }
-    .whoweare-content li{
-    font-size: 14px;
-    line-height: 22px;
-    }
-}
 .clients{
     padding-top: 80px;
 }
@@ -753,3 +651,126 @@ a:hover+.sub-content, .sub-content:hover {
     background-color: rgba(0, 0, 0, .6);
 }
 
+@media (max-width: 1300px){
+    .what{
+    
+        margin-left: -200px;
+      }
+    
+      .why{
+        margin-left: -270px;
+      }
+    
+      .how{
+        margin-left: -380px;
+      }
+      .whoweare-sub-content{
+        font-size: 14px;
+      }
+      .sub-content-text{
+        font-size:  14px;
+      }
+}
+
+@media (max-width: 1250px){
+
+    .three-blocks{
+        padding: 0px 20px 100px;
+        width: 100%;
+      }
+    .three-blocks-element{
+        align-items: flex-start;
+    }
+    .three-blocks-image {
+        width: 340px;
+    }
+    .three-blocks-content{
+        width: 300px;
+    }
+    .three-blocks-price{
+        margin-left: 0;
+    }
+    
+}
+
+@media (max-width: 1100px){
+    .basic{
+        max-height: 400px;
+        }
+    .basic-overlay{
+        height: 460px;
+    }
+    .basic-content{
+      padding-top: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      max-width: 400px;
+      height: 390px;
+      text-align: justify;
+    }
+    
+    .basic-buttons{
+      display: flex;
+      max-width: 300px;
+      padding-right: 10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .basic-button{
+        position: relative;
+        width: 200px;
+        padding-right: 10px;
+    }
+    .circle {
+        margin-top: -25px;
+        width: 72px;
+        height: 72px;
+        background-image: url('../images/hammer-small-mobile.jpg');
+        border-width: 4px;
+  }
+    .who-sides{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 0;
+        max-width: 600px;
+        width: 100%;
+        min-height: 300px;
+    }
+    .who-right{
+        width: 340px;
+    }
+    .flex340{
+        display: flex;
+        flex-direction:column;
+    }
+    .title-right{
+        padding-left: 10px;
+    }
+    .right-block-navigation-item{
+        margin-left: 10px;
+    }
+    .what {
+        margin-left: 0;
+    }
+    a:hover+.sub-content, .sub-content:hover {
+        display: block;
+        opacity:1;
+        visibility: visible;
+      }
+
+
+
+}
+@media (max-width: 1000px){
+    .three-blocks{
+        display: block;
+    }
+    .three-blocks-price{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+}
