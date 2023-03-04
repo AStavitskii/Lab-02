@@ -93,7 +93,9 @@
 }
 
 
-
+.who-right-mobile{
+    display: none;
+}
 .title-right{
     padding-left: 30px;
 }
@@ -739,8 +741,12 @@ a:hover+.sub-content, .sub-content:hover {
         width: 100%;
         min-height: 300px;
     }
-    .who-right{
+    /* .who-right{
         width: 340px;
+    } */
+
+    .who-right{
+        display: none;
     }
     .flex340{
         display: flex;
@@ -760,6 +766,13 @@ a:hover+.sub-content, .sub-content:hover {
         opacity:1;
         visibility: visible;
       }
+
+    .who-right-mobile{
+        display: block;
+        height: 550px;
+        font-size: 14px;
+        line-height: 27px;
+    }  
 
 
 
