@@ -179,25 +179,15 @@ a:hover+.sub-content, .sub-content:hover {
     margin-top: -337px;
 }
 
-.lookup-image{
-    padding-top: 30px;
-}
-.lookup-circle{
-    position: absolute;
-    margin-top: 205px;
-    margin-left: 365px;
-    width: 85px;
-    height: 85px;
-    background-color: #94B4E4;
-    border-width: 0;
-    border-style: solid;
-    border-radius: 50%;
-}
-
-.lookup-rectangle{
-    position: absolute;
-    margin-top: 235px;
-    margin-left: 400px;
+.lookup-button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 814px;
+    height: 434px;
+    background-image: url('../images/lookup.jpg');
+    background-size: cover;
 }
 
 
@@ -741,9 +731,6 @@ a:hover+.sub-content, .sub-content:hover {
         width: 100%;
         min-height: 300px;
     }
-    /* .who-right{
-        width: 340px;
-    } */
 
     .who-right{
         display: none;
@@ -769,21 +756,52 @@ a:hover+.sub-content, .sub-content:hover {
 
     .who-right-mobile{
         display: block;
-        height: 550px;
+        height: 250px;
         font-size: 14px;
         line-height: 27px;
-    }  
+    } 
 
-
-
-}
-@media (max-width: 1000px){
-    .three-blocks{
-        display: block;
+    .lookup{
+        margin-top: -212px;
     }
+
+    .lookup-button{
+        margin-top: 30px;
+        width: 407px;
+        height: 214px;
+         ;
+    }
+    .lookup-rectangle{
+        width: 72px;
+    }
+
+
     .three-blocks-price{
         margin-left: 0;
         margin-bottom: 20px;
     }
 
+}
+@media (max-width: 1000px){
+    .three-blocks-image {
+    width: 300px;
+    }
+}
+
+@media (max-width: 900px){
+
+    .three-blocks{
+        display: block;
+    }
+    
+    .three-blocks-image {
+    width: 340px;
+    }
+}
+
+@media (max-width: 500px){
+    .who-right-mobile{
+        height: 450px;
+    } 
+    
 }
