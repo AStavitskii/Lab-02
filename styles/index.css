@@ -153,6 +153,18 @@ a:hover+.sub-content, .sub-content:hover {
     min-height: 200px;
     background-size: cover;
     }
+        .what{
+    
+        margin-left: -292px;
+      }
+
+            .why{
+        margin-left: -382px;
+      }
+    
+      .how{
+        margin-left: -530px;
+      }
 
 
 /* CONTROL */
@@ -212,6 +224,9 @@ a:hover+.sub-content, .sub-content:hover {
 .center-text p{
     padding-top: 10px;
 }
+.control-text-mobile{
+     display: none;
+    }
 
 .control-content-form{
     display: flex;
@@ -513,6 +528,12 @@ a:hover+.sub-content, .sub-content:hover {
     padding-top: 80px;
 }
 
+.center-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .clients-content{
     margin-top: 20px;
     width: 376px;
@@ -682,6 +703,12 @@ a:hover+.sub-content, .sub-content:hover {
     .three-blocks-price{
         margin-left: 0;
     }
+    .howitworks-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
     
 }
 
@@ -780,6 +807,10 @@ a:hover+.sub-content, .sub-content:hover {
         margin-left: 0;
         margin-bottom: 20px;
     }
+    .howitworks, .clients, .basic-bottom-center, .basic-bottom-right {
+        display: none;
+    }
+
 
 }
 @media (max-width: 1000px){
@@ -791,17 +822,58 @@ a:hover+.sub-content, .sub-content:hover {
 @media (max-width: 900px){
 
     .three-blocks{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .three-blocks-image {
     width: 340px;
     }
+
 }
 
-@media (max-width: 500px){
+@media (max-width: 768px){
     .who-right-mobile{
         height: 450px;
-    } 
+    }
+
+    .lookup-button {
+        margin-top: 30px;
+        width: 325px;
+        height: 214px;
+    }
     
+    .control-text{
+        display: none;
+    }
+    .control-text-mobile{
+        padding: 0 10px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 40px;
+        margin-bottom: 30px;
+        max-width: 500px;
+    }
+
+    .control-content-form {
+        flex-direction:column;
+        margin-top: 10px;
+        height: 200px;
+    }
+    .control-checbox{
+        font-size: 14px;
+        padding: 0 10px;
+        margin-top: 17px;
+    }
+
+
+    .basic-bottom-left {
+        
+        width: 500px;
+    }
+
 }
