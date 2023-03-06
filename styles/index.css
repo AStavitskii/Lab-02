@@ -181,7 +181,6 @@ a:hover+.sub-content, .sub-content:hover {
 }
 
 .control, .lookup {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -487,6 +486,9 @@ a:hover+.sub-content, .sub-content:hover {
     height: 864px;
     position: relative;
     }
+.basic-bottom-slides{
+    display: none;
+}
 
 .basic-bottom-left{
     margin-left: 50px;
@@ -659,30 +661,28 @@ a:hover+.sub-content, .sub-content:hover {
     margin-top: -272px;
     height: 272px;
     width: 1440px;
-
-
     background-color: rgba(0, 0, 0, .6);
 }
 
 @media (max-width: 1300px){
+
     .what{
-    
         margin-left: -200px;
-      }
+    }
     
-      .why{
+    .why{
         margin-left: -270px;
-      }
+    }
     
-      .how{
+    .how{
         margin-left: -380px;
-      }
-      .whoweare-sub-content{
+    }
+    .whoweare-sub-content{
         font-size: 14px;
-      }
-      .sub-content-text{
+    }
+    .sub-content-text{
         font-size:  14px;
-      }
+    }
 }
 
 @media (max-width: 1250px){
@@ -807,12 +807,54 @@ a:hover+.sub-content, .sub-content:hover {
         margin-left: 0;
         margin-bottom: 20px;
     }
-    .howitworks, .clients, .basic-bottom-center, .basic-bottom-right {
+    .howitworks,
+    .clients,
+    .basic-bottom-center,
+    .basic-bottom-right,
+    .basic-bottom-list,
+    .basic-overlay {
         display: none;
     }
+    .basic-bottom {
+        background-image: none;
+        padding-top: 0;
+        height: 120px;
+    }
+    .basic-bottom-mobile{
+        margin-top: -100px;
+        padding-top: 50px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+    .basic-bottom-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .basic-bottom-left h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #072B61;
+    }
+
+    .basic-bottom-slides{
+        margin-top: 20px;
+        display: block;
+        height: 100px;
+        width: 100px;
+        background-image: url(../images/contract.jpg);
+        background-size: cover;
+    }
+    
 
 
 }
+
 @media (max-width: 1000px){
     .three-blocks-image {
     width: 300px;
@@ -875,5 +917,6 @@ a:hover+.sub-content, .sub-content:hover {
         
         width: 500px;
     }
+
 
 }
