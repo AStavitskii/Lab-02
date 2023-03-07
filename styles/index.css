@@ -651,7 +651,10 @@ a:hover+.sub-content, .sub-content:hover {
     background-size: cover;
     background-color: rgba(0, 0, 0, .6);
 }
-
+.map-frame{
+    width:925px;
+    height: 460px;
+}
 .map-bottom-overlay{
     display: flex;
     justify-content: center;
@@ -843,13 +846,45 @@ a:hover+.sub-content, .sub-content:hover {
     }
 
     .basic-bottom-slides{
+        display: flex;
         margin-top: 20px;
-        display: block;
-        height: 100px;
-        width: 100px;
+        justify-content: space-between;
+        height: 227px;
+        width: 340px;
         background-image: url(../images/contract.jpg);
         background-size: cover;
     }
+    .arrows{
+        width: 20%;
+    }
+
+    .bottom-form{
+        display: flex;
+        width: 100%;
+        height: 500px;
+        margin-top: -227px;
+        padding: 120px 20px 20px 20px;
+    }
+
+    .bottom-form-widht{
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+    }
+    
+    .bottom-form-firstline{
+        margin: 20px 0;
+    }
+
+    .bottom-form textarea{
+        width: 260px;
+        height: 100px;
+    }
+    .bottom-checkbox-font{
+        font-size: 14px;
+    }
+
+
     
 
 
@@ -859,6 +894,26 @@ a:hover+.sub-content, .sub-content:hover {
     .three-blocks-image {
     width: 300px;
     }
+    .map{
+        height: 234px;
+        display: flex;
+        justify-content: center;
+        background-image: none;
+        background-color: #072B61 ;
+    }
+
+    .map-frame{
+        width: 360px;
+        height: 250px;
+    }
+
+    .map-bottom-overlay-content{
+        display: none;
+    }
+    
+
+
+
 }
 
 @media (max-width: 900px){
@@ -911,8 +966,6 @@ a:hover+.sub-content, .sub-content:hover {
         padding: 0 10px;
         margin-top: 17px;
     }
-
-
     .basic-bottom-left {
         
         width: 500px;
