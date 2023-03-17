@@ -180,7 +180,7 @@ a:hover+.sub-content, .sub-content:hover {
     
 }
 
-.control, .lookup {
+.control-content, .lookup {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -663,7 +663,7 @@ a:hover+.sub-content, .sub-content:hover {
     content: '';
     margin-top: -272px;
     height: 272px;
-    width: 1440px;
+    width: 1260px;
     background-color: rgba(0, 0, 0, .6);
 }
 
